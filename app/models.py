@@ -18,5 +18,7 @@ class date(models.Model):
     id = models.AutoField(primary_key=True)
     date_newest = models.DateTimeField()
 
-
+class Issues(models.Model):
+    id = models.AutoField(primary_key=True)
+    
 

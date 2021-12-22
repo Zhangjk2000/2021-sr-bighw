@@ -88,8 +88,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         #这一块需要连接自己本地的数据库
         'USER': 'root',
-        'PASSWORD': '139036',
-        'NAME': 'sr',
+        'PASSWORD': 'bygrdwnzydlygdxt',
+        'NAME': 'db',
         'HOST': '',
         'PORT': 3306,
     }

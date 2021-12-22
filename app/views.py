@@ -6,7 +6,7 @@ from django.http.response import HttpResponse
 from django.shortcuts import render
 import requests
 from datetime import datetime
-from .models import Contributors,Commits,date
+from .models import Contributors,Commits,Issues,date
 import json
 headers = {"Authorization": "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"}
 

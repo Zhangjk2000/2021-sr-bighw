@@ -4,6 +4,7 @@ from datetime import datetime
 from django.shortcuts import render
 import requests,json
 
+
 def commit_from(request):
 
     contribute_datas = []
@@ -30,7 +31,7 @@ def commit_from(request):
             total = total + 1
             date_it = resps['commit']['author']['date']
             authors = resps['commit']['author']['name']
-            if authors not in committer_dict.keys():
+            if authors not in committer_dict.keys():    
                 committer_dict[resps['commit']['author']['name']] = 1
 
             else:
